@@ -45,5 +45,11 @@ public class MainController {
 		
 		return "success";
 		*/
+		
+		
+	}
+	public String change() {
+		return "";
 	}
 }
+
