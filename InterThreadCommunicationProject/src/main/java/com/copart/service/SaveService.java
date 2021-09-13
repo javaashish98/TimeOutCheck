@@ -66,7 +66,7 @@ class LongRunningTask implements Runnable {
 	        }
 	    } 
 	}
-	
+	//we should not consider this timer concept
 	public String saveData1() throws InterruptedException {
 		Thread t = new Thread(new LongRunningTask());
 		Timer timer = new Timer();
